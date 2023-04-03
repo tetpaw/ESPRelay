@@ -1,11 +1,13 @@
 #include <ESP8266WiFi.h>
+
+
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
 /*-------------CONFIG--------------------*/
-const char*  WIFI_SSID      = "ASUS_D2";
-const char*  WIFI_Password  = "794613852";
+const char*  WIFI_SSID      = "bella";
+const char*  WIFI_Password  = "tetpaw@19821987";
 const String Relay_Password = "123";
 const int    Relay_PIN      = 16;
 /*-------------CONFIG--------------------*/
